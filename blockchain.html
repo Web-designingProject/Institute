@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blockchain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+                    <a href="#" id="g_t_t" style="display: none;">
+                    <div class="top-btn">
+                    <img class="gototop-img" src="img/gototop.png" alt="go to top">
+                        </div>
+                    </a>
+                
+                </div>
+				</div>  <!--/.col-md-->
+			</div>	<!--/.row-->	
+    <header>
+       <div class="top-strip">
+           <div class="container">
+               <div class="col-md-7 col-sm-7 col-xs-12 col-md-offset-5">
+                   <div class="right-bar-info clearfix">
+                       <ul class="list-inline" id="top-menu-bar">
+                           <li>
+                               <i class="fa fa-phone"></i>
+                               <a href="">
+                               <span>1234567895</span>
+                           </a></li>
+                           <li>
+                               <i class="fa fa-envelope"></i>
+
+                <a href="mailto:xyz@gmail.com">xyz@gmail.com</a>
+
+                           </li>
+                           <li>
+                           <i class="fa fa-calendar"></i>
+                              <a href="demo.html">
+                               <span>Demo Date &amp; Time</span>
+                           </a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="top-logo-div">
+           <div class="container">
+              <!-- nav-bar-mark-up-->
+               <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tech Institute</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+      <ul class="nav navbar-nav pull-right" id="menu-list">
+        <li><a href="index.html">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="aboutus.html">about us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">courses <span class="caret"></span></a>
+
+          <div class="listbox dropdown-menu" id="coursesList">
+          <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12" id="divider">
+          <h4 class="ourcourses">our courses</h4>
+          <ul>
+            <li> <a href="webdesigning.html">Web Designing</a></li>
+                <li><a href="asp.html">Asp.net</a></li>
+                <li><a href="java.html">Java</a></li>
+                <li><a href="php.html">Php</a></li>
+                <li><a href="sql.html">SQL</a></li>
+                <li><a href="html5.html">HTML5</a></li>
+                <li><a href="css3.html">CSS3</a></li>
+                 <li><a href="meanstack.html">Mean Stack</a></li>
+                <li><a href="c++.html">C++</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="aws.html">AWS</a></li>
+                <li><a href="blockchain.html">Blockchain</a></li>
+                <li><a href="english-speaking-classes.html">Spoken English</a></li>
+          </ul>
+           <a href="courses.html" class="btn btn-success btn_view">View all courses</a>
+            </div>
+             <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="row coursesdetail">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="corsLink">Web Designing</h4>
+                        <div class="course-img web">
+
+                        </div>
+                        <p class="courses-link">
+                               Web Designing training includes HTML4, CSS2, Photoshop CC, JavaScript, JQuery, HTML5, CSS3, Responsive Layouts, UI Testing, SASS and Bootstrap and three projects
+                            </p>
+                             <a href="webdesigning.html" class="btn btn-success btn_view">Web Designing Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">ASP.net</h4>
+                        <div class="course-img asp"></div>
+                        <p class="courses-link">
+                              Asp.net training includes Asp.net Core and Advance including WCF, Linq, Jquery, MVC, Entity Framework, and Bootstrap.
+                            </p>
+                            <br>
+                            <a href="aspnet.html" class="btn btn-success btn_view">ASP.net Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">JAVA</h4>
+                        <div class="course-img java"></div>
+                        <p class="courses-link">
+                               Core and Advance Java with j2ee, jsp servlet, JDBC, Struts, Spring, Hiberate and finally a project.
+                            </p>
+                            <br><br>
+                            <a href="java.html" class="btn btn-success btn_view">JAVA Traning</a>
+                    </div>
+                 </div>
+                  <hr>
+                   <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">PHP</h4>
+                        <div class="course-img php"></div>
+                        <p class="courses-link">
+                               Php Training includes core php, mySql, mysqli, HTML, css, JavaScript, Jquery, Ajax, Web Services, Joomla, Wordpress and three projects.
+                            </p>
+                            <br>
+                            <a href="php.html" class="btn btn-success btn_view">PHP Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">SQL</h4>
+                        <div class="course-img sql"></div>
+                        <p class="courses-link">
+                               SQL or Structured Query Language is a standared language for database. SQL communicates with database and can create, update, remove, and retrive data from database.
+                            </p>
+                            <a href="sql.html" class="btn btn-success btn_view">SQL Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">C++</h4>
+                        <div class="course-img c-lang"></div>
+                        <p class="courses-link">
+                               C++ Language training covers Classes and Object, Constructor &amp; Destructor, File Handling, Inheritance, Virtual, Overloading and Exception Handling.
+                            </p>
+                            <br>
+                            <a href="c++.html" class="btn btn-success btn_view">C++ Traning</a>
+                    </div>
+                </div>
+             </div>
+              </div> <!--row ends-->
+              </div>
+        </li>
+        <li><a href="corporatetraining.html">corporate training</a></li>
+        <li><a href="contactus.html">contact us</a></li>
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+           </div>
+       </div>
+   </header>
+  <section class="course-details">
+      <div class="container">
+          <div class="row">
+              <div class="course-details-heading">
+                  <h2>course details</h2>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="container menu-sec">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="menu clearfix">
+                  <ul>
+                      <li><a href="index.html"> Home</a>
+                      <span class="symbol">></span>
+                      </li>
+                      <li><a href="courses.html"> Courses</a>
+                      <span class="symbol">></span>
+                      </li>
+                      <li><a href="">Blockchain Training</a>
+                      
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+   <div class="container">
+       <div class="row">
+           <div class="course-pic">
+                <img class="img-reponsive" src="img/blockchaintraining.jpg" alt="">
+           </div>
+       </div>
+   </div>
+      <section class="course-description">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8 col-sm-8 col-xs-12">
+                   
+                   
+                   <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Courses Overview</a></li>
+    <li><a href="#tabs-2">Course Description</a></li>
+    <li><a href="#tabs-3">Free Demo &amp; Trainer Profile</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>
+        The Blockchain Certification Training aims to provide intelligence on the structure and mechanism of blockchain. The training focuses on the setting up the personal blockchain environment using Ethereum, understand how to deploy the contract from web and console, etc. Through this training, the candidates would get introduced to the concept of Blockchain and the fundamentals of blockchain and bitcoin.
+    </p>
+    <div class="courses-overview">
+        <h3>Target audience</h3>
+    </div>
+    <ul class="course-list">
+        <li>The individuals having the intelligence of the basics of the programming and willing to make a career in the Blockchain technology should opt for the course</li>
+           
+    </ul>
+        <div class="courses-overview">
+        <h3>Prerequisites</h3>
+        </div>
+        <p>Experience with the object-oriented language</p>
+        <p>The knowledge of the fundamentals of networking like: command line &amp; Linux</p>
+        <p>Experience with JavaScript</p>
+  </div>
+  <div id="tabs-2">
+      <div class="courses-overview">
+        <h3>1. Introduction to  Cryptocurrency and Networking Concepts</h3>
+    </div>
+    <ul class="course-list">
+  <li>Transformation  in trading units</li>
+  <li>Cryptography  and Crypto-currency</li>
+  <li>Anonymity  and Pseudonymity in cryptocurrencies</li>
+  <li>Digital  Signatures</li>
+  <li>Cryptocurrency  Hash codes</li>
+  <li>Peer to peer networks (structured and  unstructured)</li>
+</ul>
+  
+   <div class="courses-overview">
+        <h3>2. Overview Of Blockchain</h3>
+    </div>
+    <ul class="course-list">
+  <li>Introduction to  Blockchain.</li>
+  <li>Why Blockchain is  crucial?</li>
+  <li>Key vocabulary  while discussing Blockchain</li>
+  <li>Distinction  between databases and blockchain</li>
+  <li>Explaining  Distributed Ledger</li>
+  <li>Blockchain  ecosystem</li>
+  <li>Blockchain  structure</li>
+  <li>Working of  blockchain technology</li>
+  <li>Permissioned and  permission-less blockchain&nbsp;</li>
+</ul>
+			<div class="courses-overview">
+        <h3>3. Bitcoin and  Blockchain</h3>
+    </div>
+    <ul class="course-list">
+  <li>Bitcoin and its History</li>
+  <li>Why use Bitcoins?</li>
+  <li>Where and how to buy bitcoins</li>
+  <li>How to store bitcoins?</li>
+  <li>How and where to spend bitcoins?</li>
+  <li>Selling bitcoins</li>
+  <ul><li>Bitcoin transactions</li>
+  <li>How bitcoin  transactions work</li>
+  <li>What happens  in case of invalid transactions</li></ul>
+  <li>Parameters  that invalidate the transactions</li>
+  <li>Scripting language in bitcoin</li>
+  <li>Applications of bitcoin script</li>
+  <li>Nodes and network of bitcoin</li>
+  <li>Various roles you can play in Bitcoin Ecosystem</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>4. Bitcoin Mining</h3>
+    </div>
+    <ul class="course-list">
+  <li>Purpose of Mining</li>
+  <li>Algorithm used in  mining</li>
+  <li>Mining hardware</li>
+  <li>How bitcoin  mining works?</li>
+  <li>Bitcoin mining  pools</li>
+  <li>How cloud mining  of bitcoin works?</li>
+  <li>Mining Incentives</li>
+  <li>Security and  Centralizations</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>5. Ethereum</h3>
+    </div>
+    <ul class="course-list">
+  <li>What is Ethereum?</li>
+  <li>What is Ether?</li>
+  <li>How to use Ethereum?</li>
+  <li>The Ethereum ecosystem, DApps and DAOs</li>
+  <li>How Ethereum mining works</li>
+  <li>Learning Solidity</li>
+  <ul><li>Contract  classes, Functions and conditionals</li>
+  <li>Inheritance  &amp; abstract contracts</li>
+  <li>Libraries</li>
+  <li>Types  &amp; Optimization</li>
+  <li>Global  Variables</li>
+  <li>Debugging</li></ul>
+  <li>Future of Ethereum</li>
+</ul>
+			<div class="courses-overview">
+        <h3>6. Setting up  Private Blockchain Environment Using Ethereum Platform</h3>
+    </div>
+    <ul class="course-list">
+  <li>Private and public blockchain</li>
+  <li>Various blockchain setup platforms</li>
+  <li>Using Ethereum to setup private blockchain</li>
+  <li>Steps to build a blockchain solution.</li>
+  <li>Smart contract on Ethereum</li>
+  <li>Compile, deploy and instantiate contracts</li>
+  <li>Configuring, running and working with the go-Ethereum client</li>
+  <li>Account management and mining</li>
+  <li>Understand the different stages of a contract deployment</li>
+  <li>How to interact with a contract once deployed?</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>7. Prospects of  Blockchain
+</h3>
+    </div>
+    <ul class="course-list">
+  <li>Blockchain prospering our world</li>
+  <li>Blockchain transforming business and professionalism</li>
+  <li>Discussing practical use-cases of blockchain</li>
+   <ul><li>How can we  take Aadhaar Card on Blockchain</li>
+  <li>How Blockchain  can be used to remove corruption</li></ul>
+  <li>Real case scenarios of Blockchain</li>
+   <ul><li>Blockchain  in Banking system</li>
+  <li>Blockchain  in Land Registry</li>
+  <li>Blockchain  in Capital Market</li></ul>
+  <li>Use cases for Govt.</li>
+</ul>
+
+			
+			
+    
+  </div>
+  <div id="tabs-3">
+    <div class="demo clearfix">
+        
+        <h3>about instructor</h3>
+        <div class="mentor-img clearfix">
+            <img class="img-responsive" src="img/mentor2.jpg" alt="">
+        <p  class="instructor"><strong><em>Emily Jhonson</em></strong><br><span>Entrepreneur, software developer</span></p>
+        
+            <p class="mentor-info"><strong>8+ years of experience in implementing real-time Blockchain projects .</strong> 
+Till Now Trained 100+ Students<br>
+						</p>
+        
+        </div>
+        
+        
+      <div class="course-reviews">
+           <h4>Reviews</h4>
+
+             <div class="de-rating-bg">
+				<h5>Detailed Rating</h5>
+				<div class="de-rating">
+				<div class="rat-item">
+				<span class="left">Star 5</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">5</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 4</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">4</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 3</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">3</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 2</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">2</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 1</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">1</span>
+				</div>
+				</div>
+				</div>
+							
+						</div>
+						<h3>demo information</h3>
+						<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+        <strong>Date :- 5 Nov 2018</strong><br>
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <strong>Timing :- 11:30 PM</strong>
+    </div> <!--demo div ends-->
+  </div>
+</div>
+                   
+                   
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                   <div class="row">
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-inr fa-2x" aria-hidden="true"></i>
+                               <p>Fee:</p>
+                               <p>17000</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                               <p>Total Seats:</p>
+                               <p>15</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                              <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
+                               <p>Start:</p>
+                               <p>13 Nov'18</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i>
+                               <p>End:</p>
+                               <p>13 Jan'19</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                               <p>Location:</p>
+                               <p>Noida</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
+                               <p>Duration:</p>
+                               <p>3 Month</p>
+                           </div>
+                       </div>
+                      
+                   </div><!--row ends-->
+                    <div class="col-md-12">
+                         <div class="training-features-box">
+                             <h3>Blockchain Training Features</h3>
+                             <div class="training-details-box">
+                                 <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-users panel-icon"></i>
+                                      8 to 12 Students in a batch</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-newspaper-o panel-icon"></i>
+                                       Assessments</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-address-card panel-icon"></i>
+                                      Certified &amp; Industry Experts Trainers</div>
+                                    </div>
+                                     <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-clock-o panel-icon"></i>
+                                      Lifetime Access</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-black-tie panel-icon"></i>
+                                      Placement Assistance</div>
+                                    </div>
+                                     <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-black-tie panel-icon"></i>
+                                      Certification</div>
+                                    </div>
+                             </div><!--training-details-box-->
+                         </div>
+                     </div>
+               </div>
+               
+           </div>
+       </div>
+   </section>
+    <footer>
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">Our Mission</h3>
+              <div class="para-bg wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
+                
+              <p class="footer-para">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text .<br><br>
+                When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                explore
+              </h3>
+              <ul class="footer-links footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="courses.html">Courses List</a></li>
+                <li><a href="corporatetraining.html">Corporate Training</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                visit
+              </h3>
+              
+              
+              <ul class="footer-links visit clearfix">
+               <!--<span class="address-icons fa fa-home"></span> -->
+                  <li>Address:
+                <p>123 XYZ Avenue,Sector 22,<br>
+                    Noida City,India</p>
+                </li>
+                
+                <!-- <span class="address-icons fa fa-phone"></span>-->
+                  <li>Phone:
+                  <p>
+                      <a href="tel:5551234567">Call (555)123-4567</a></p>
+                </li>
+                 <!--<span class="address-icons fa fa-envelope-o"></span>-->
+               <li>Email:
+                  <p><a href="mailto:computerinstitute@gmail.com">computerinstitute@gmail.com</a></p>
+                </li>
+                
+                 <li>Timing:
+                  <p>Mon - Sat: 10AM - 6PM</p>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+
+           <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                top courses
+              </h3>
+            <div class="row">
+               <div class="col-md-6">
+                <ul class="footer-links">
+				<li><a href="webdesigning.html" title="webdesigning.html">Web Designing</a></li>
+				<li><a href="aspnet.html" title="">Asp.net</a></li>
+				<li><a href="java.html" title="">Java</a></li>
+				<li><a href="php.html" title="">Php</a></li>
+									<li><a href="sql.html" title="">SQL</a></li>
+									<li><a href="html5.html" title="">HTML5 </a></li>
+									<li><a href="css3.html" title="">CSS3</a></li>
+									<li><a href="meanstack.html" title="">Mean Stack</a></li>
+									
+									</ul>
+                </div>
+									
+								
+                
+                
+               <div class="col-md-6">
+                <ul class="footer-links">
+				<li><a href="python.html" title="">Python</a></li>
+                <li><a href="english-speaking-classes.html" title="">Spoken English</a></li>
+				<li><a href="javascript.html" title="">Javascript</a></li>
+				<li><a href="c++.html" title="">C++</a></li>
+									<li><a href="bighadoop.html" title="">Hadoop</a></li>
+									<li><a href="blockchain.html" title="">Blockchain </a></li>
+									<li><a href="digitalmarketing.html" title="">Digital Marketing</a></li>
+									<li><a href="aws.html" title="">AWS</a></li>
+									
+									</ul>
+                </div>
+                </div>					
+								
+                
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bottom-txt">
+         <div class="container">
+          <div class="row">
+             <div class="col-md-6">
+              <div class="copyright">
+                  <span>&copy; 2018, All Rights Reserved</span>
+                
+              </div>
+              </div>
+              <div class="col-md-6">
+              <div class="social-icons clearfix">
+                  <ul>
+                      <li><a href="#"><i class="fa fa-facebook wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-instagram wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-google-plus-square wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      
+                  </ul>
+                  
+                  
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+    </footer>
+     <script src="js/jq.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+     <script src="js/function.js"></script>
+    
+
+</body>
+</html>

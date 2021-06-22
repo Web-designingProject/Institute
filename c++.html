@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C++</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+                    <a href="#" id="g_t_t" style="display: none;">
+                    <div class="top-btn">
+                    <img class="gototop-img" src="img/gototop.png" alt="go to top">
+                        </div>
+                    </a>
+                
+                </div>
+				</div>  <!--/.col-md-->
+			</div>	<!--/.row-->	
+    <header>
+       <div class="top-strip">
+           <div class="container">
+               <div class="col-md-7 col-sm-7 col-xs-12 col-md-offset-5">
+                   <div class="right-bar-info clearfix">
+                       <ul class="list-inline" id="top-menu-bar">
+                           <li>
+                               <i class="fa fa-phone"></i>
+                               <a href="">
+                               <span>1234567895</span>
+                           </a></li>
+                           <li>
+                               <i class="fa fa-envelope"></i>
+
+                <a href="mailto:xyz@gmail.com">xyz@gmail.com</a>
+
+                           </li>
+                           <li>
+                           <i class="fa fa-calendar"></i>
+                              <a href="demo.html">
+                               <span>Demo Date &amp; Time</span>
+                           </a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="top-logo-div">
+           <div class="container">
+              <!-- nav-bar-mark-up-->
+               <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tech Institute</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+      <ul class="nav navbar-nav pull-right" id="menu-list">
+        <li><a href="index.html">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="aboutus.html">about us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">courses <span class="caret"></span></a>
+
+          <div class="listbox dropdown-menu" id="coursesList">
+          <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12" id="divider">
+          <h4 class="ourcourses">our courses</h4>
+          <ul>
+            <li> <a href="webdesigning.html">Web Designing</a></li>
+                <li><a href="asp.html">Asp.net</a></li>
+                <li><a href="java.html">Java</a></li>
+                <li><a href="php.html">Php</a></li>
+                <li><a href="sql.html">SQL</a></li>
+                <li><a href="html5.html">HTML5</a></li>
+                <li><a href="css3.html">CSS3</a></li>
+                 <li><a href="meanstack.html">Mean Stack</a></li>
+                <li><a href="c++.html">C++</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="aws.html">AWS</a></li>
+                <li><a href="blockchain.html">Blockchain</a></li>
+                <li><a href="english-speaking-classes.html">Spoken English</a></li>
+          </ul>
+           <a href="courses.html" class="btn btn-success btn_view">View all courses</a>
+            </div>
+             <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="row coursesdetail">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="corsLink">Web Designing</h4>
+                        <div class="course-img web">
+
+                        </div>
+                        <p class="courses-link">
+                               Web Designing training includes HTML4, CSS2, Photoshop CC, JavaScript, JQuery, HTML5, CSS3, Responsive Layouts, UI Testing, SASS and Bootstrap and three projects
+                            </p>
+                             <a href="webdesigning.html" class="btn btn-success btn_view">Web Designing Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">ASP.net</h4>
+                        <div class="course-img asp"></div>
+                        <p class="courses-link">
+                              Asp.net training includes Asp.net Core and Advance including WCF, Linq, Jquery, MVC, Entity Framework, and Bootstrap.
+                            </p>
+                            <br>
+                            <a href="aspnet.html" class="btn btn-success btn_view">ASP.net Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">JAVA</h4>
+                        <div class="course-img java"></div>
+                        <p class="courses-link">
+                               Core and Advance Java with j2ee, jsp servlet, JDBC, Struts, Spring, Hiberate and finally a project.
+                            </p>
+                            <br><br>
+                            <a href="java.html" class="btn btn-success btn_view">JAVA Traning</a>
+                    </div>
+                 </div>
+                  <hr>
+                   <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">PHP</h4>
+                        <div class="course-img php"></div>
+                        <p class="courses-link">
+                               Php Training includes core php, mySql, mysqli, HTML, css, JavaScript, Jquery, Ajax, Web Services, Joomla, Wordpress and three projects.
+                            </p>
+                            <br>
+                            <a href="php.html" class="btn btn-success btn_view">PHP Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">SQL</h4>
+                        <div class="course-img sql"></div>
+                        <p class="courses-link">
+                               SQL or Structured Query Language is a standared language for database. SQL communicates with database and can create, update, remove, and retrive data from database.
+                            </p>
+                            <a href="sql.html" class="btn btn-success btn_view">SQL Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">C++</h4>
+                        <div class="course-img c-lang"></div>
+                        <p class="courses-link">
+                               C++ Language training covers Classes and Object, Constructor &amp; Destructor, File Handling, Inheritance, Virtual, Overloading and Exception Handling.
+                            </p>
+                            <br>
+                            <a href="c++.html" class="btn btn-success btn_view">C++ Traning</a>
+                    </div>
+                </div>
+             </div>
+              </div> <!--row ends-->
+              </div>
+        </li>
+        <li><a href="corporatetraining.html">corporate training</a></li>
+        <li><a href="contactus.html">contact us</a></li>
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+           </div>
+       </div>
+   </header>
+  <section class="course-details">
+      <div class="container">
+          <div class="row">
+              <div class="course-details-heading">
+                  <h2>course details</h2>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="container menu-sec">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="menu clearfix">
+                  <ul>
+                      <li><a href="index.html"> Home</a>
+                      <span class="symbol">></span>
+                      </li>
+                      <li><a href="courses.html"> Courses</a>
+                      <span class="symbol">></span>
+                      </li>
+                      <li><a href="">C++ Training</a>
+                      
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+   <div class="container">
+       <div class="row">
+           <div class="course-pic">
+                       <img class="img-reponsive" src="img/clanguage.jpg" alt="">
+                   </div>
+       </div>
+   </div>
+      <section class="course-description">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8 col-sm-8 col-xs-12">
+                   
+                   
+                   <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Courses Overview</a></li>
+    <li><a href="#tabs-2">Course Description</a></li>
+    <li><a href="#tabs-3">Free Demo &amp; Trainer Profile</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>C Language training covers Operators(Shift+bitwise), Pointers, File Handling, Union &amp; Structures, Functions, Arrays(1-d and 2-d) and C Preprocessors.</p>
+      <P>C++ Language training covers Classes and Object, Constructor &AMP; Destructor, File Handling, Inheritance, Virtual, Overloading and Exception Handling.</P>
+    <div class="courses-overview">
+        <h3>Target audience</h3>
+    </div>
+    <ul class="course-list">
+            <li>Programmers</li>
+            <li>Software developers/engineers</li>
+            <li>Web Masters</li>
+        </ul>
+        <div class="courses-overview">
+        <h3>Prerequisites</h3>
+        </div>
+        <p>Candidates with working experience on any programming language and strong interest in exploring different programming languages can undergo this training</p>
+  </div>
+  <div id="tabs-2">
+      <div class="courses-overview">
+        <h3>1.Fundamentals of Object-Oriented Programming</h3>
+    </div>
+    <ul class="course-list">
+  
+  <li>Structured Vs. Object-Oriented Programming </li>
+  <li>Objects and Classes. </li>
+  <li>Encapsulation and Data Abstraction </li>
+  <li>Inheritance </li>
+  <li>Delegation-Object Composition </li>
+  <li>Polymorphism </li>
+  <li>Message Communication </li>
+ 
+</ul>
+  
+   <div class="courses-overview">
+        <h3>2.Moving from C to C++</h3>
+    </div>
+  <ul class="course-list">
+  <li>Parameters passing by references </li>
+  <li>Inline Functions </li>
+  <li>Function overloading </li>
+  
+</ul>
+ 
+ <div class="courses-overview">
+            <h3>3. Control Flow</h3>
+    </div>
+    <ul class="course-list">
+  <li>if statement, if-else Statement , Nested if-else Statements</li>
+  <li>for Loop ,while loop,do..while Loop </li>
+  <li>break Statement</li>
+  <li>switch Statement </li>
+  <li>continue Statement </li>
+  
+</ul>
+ 
+ <div class="courses-overview">
+        <h3> 4. Modular Programming with functions </h3>
+    </div>
+    <ul class="course-list">
+ 
+  <li>Function Components</li>
+  <li>Passing Data to Functions. </li>
+  <li>Function Return Data Type. </li>
+  <li>Library Functions. </li>
+  <li>Parameter Passing. </li>
+  <li>Return by Reference. </li>
+  <li>Inline Functions. </li>
+  <li>Function Overloading. </li>
+  <li>Function Templates. </li>
+  <li>Storage Classes. </li>
+  
+</ul>
+ 
+ <div class="courses-overview">
+        <h3>5. Arrays and Strings </h3>
+    </div>
+    
+ 
+  <div class="courses-overview">
+        <h3>6.Pointers and runtime binding</h3>
+    </div>
+    <ul class="course-list">
+  <li>Pointers and their Binding </li>
+  <li>Address Operator </li>
+  <li>Pointer Variables </li>
+  <li>Void Pointers</li>
+  <li>Pointers to Pointers </li>
+  <li>Pointers to Objects </li>
+  <li>Pointers to Constant Objects </li>
+  <li>Constant Pointers</li>
+  <li>Pointers to Structures</li>
+  <li>Wild Pointers.</li>
+</ul>
+ 
+  <div class="courses-overview">
+        <h3>7.Object Intialization and cleanup </h3>
+    </div>
+    <ul class="course-list">
+  <li>Constructors </li>
+  <li>Parameterized Constructors </li>
+  <li>Destructor </li>
+  <li>Constructor Overloading </li>
+  <li>Order of Constructor and Destructor </li>
+  <li>Nameless Objects </li>
+  <li>Dynamic Intialization through Constructors </li>
+  <li>Copy constructor </li>
+</ul>
+ 
+ <div class="courses-overview">
+        <h3>8.Dynamic Objects </h3>
+    </div>
+    <ul class="course-list">
+ 
+  <li>Pointers to Objects. </li>
+  <li>Live Objects. </li>
+  <li>Array of Objects. </li>
+  <li>Array of Pointers to Objects. </li>
+  <li>Pointers to Object Members. </li>
+</ul>
+ 
+ <div class="courses-overview">
+        <h3>9.Inheritance </h3>
+    </div>
+    <ul class="course-list">
+ 
+  <li>Forms of Inheritance. </li>
+  <li>Inheritance and Member Accessibility.</li>
+  <li>Constructors in Derived Classes. </li>
+  <li>Destructors in Derived Classes. </li>
+  <li>Multilevel Inheritance. </li>
+  <li>Multiple Inheritance. </li>
+  <li>Hierarchical Inheritance. </li>
+  <li>MultiPath Inheritance and Virtual Base Classes</li>
+</ul>
+ 
+ <div class="courses-overview">
+        <h3>10. Virtual Functions  </h3>
+    </div>
+    <ul class="course-list">
+ 
+  <li>Need for Virtual Functions. </li>
+  <li>Pointer to Derived Class Objects. </li>
+  <li>Virtual Functions. </li>
+  <li>Array of Pointers to Base Class Objects. </li>
+  <li>Pure Virtual Functions. </li>
+ 
+</ul>
+ 
+ <div class="courses-overview">
+        <h3>11. Generic Programming with templates </h3>
+    </div>
+    <ul class="course-list">
+ 
+  <li>Function Templates. </li>
+  <li>Overloaded Function Templates.</li>
+  <li>Multiple Arguments Function Template. </li>
+  <li>Inheritance of Class Template. </li>
+  
+</ul>
+ 
+  <div class="courses-overview">
+        <h3>12. File Handling</h3>
+    </div>
+    <ul class="course-list">
+ 
+  <li>Hierarchy of File Stream Classes. </li>
+  <li>Opening and Closing of Files.</li>
+  <li>File Modes. </li>
+  <li>Sequential/Random Access to a File. </li>
+  <li>Error Handling During File Manipulations. </li>
+  
+</ul>
+ 
+   <div class="courses-overview">
+        <h3>13. Exception Handling</h3>
+    </div>
+    <ul class="course-list">
+ 
+  <li>Error Handling. </li>
+  <li>List of Exceptions.</li>
+  <li>Catch all Exceptions. </li>
+  <li>Exceptions in Constructors and destructors,Operator Overloaded Functions. </li>
+  <li>Handler throwing the same Exception again. </li>
+  
+</ul>
+  </div>
+  <div id="tabs-3">
+    <div class="demo clearfix">
+        
+        <h3>about instructor</h3>
+        <div class="mentor-img clearfix">
+            <img class="img-responsive" src="img/mentor2.jpg" alt="">
+        <p  class="instructor"><strong><em>Sara Jhonson</em></strong><br><span>Python Trainer</span></p>
+        
+        <p class="mentor-info"><strong>Trainer having 5+ years Industrial Experience.</strong>
+        Till Now Trained 1000+ Students.
+						</p>
+        
+        </div>
+        
+        
+      <div class="course-reviews">
+           <h4>Reviews</h4>
+
+             <div class="de-rating-bg">
+				<h5>Detailed Rating</h5>
+				<div class="de-rating">
+				<div class="rat-item">
+				<span class="left">Star 5</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">5</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 4</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">4</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 3</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">3</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 2</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">2</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 1</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">1</span>
+				</div>
+				</div>
+				</div>
+							
+						</div>
+						<h3>demo information</h3>
+						<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+        <strong>Date :- 5 Nov 2018</strong><br>
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <strong>Timing :- 11:30 PM</strong>
+    </div> <!--demo div ends-->
+  </div>
+</div>
+                   
+                   
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                   <div class="row">
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-inr fa-2x" aria-hidden="true"></i>
+                               <p>Fee:</p>
+                               <p>4000</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                               <p>Total Seats:</p>
+                               <p>15</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                              <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
+                               <p>Start:</p>
+                               <p>05 Nov'18</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i>
+                               <p>End:</p>
+                               <p>05 Dec'18</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                               <p>Location:</p>
+                               <p>Noida</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
+                               <p>Duration:</p>
+                               <p>1 Month</p>
+                           </div>
+                       </div>
+                     
+                   </div><!--row ends-->
+                    <div class="col-md-12">
+                         <div class="training-features-box">
+                             <h3>C++ Training Features</h3>
+                             <div class="training-details-box">
+                                 <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-users panel-icon"></i>
+                                      8 to 12 Students in a batch</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-newspaper-o panel-icon"></i>
+                                       Assessments</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-address-card panel-icon"></i>
+                                      Certified &amp; Industry Experts Trainers</div>
+                                    </div>
+                                     <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-clock-o panel-icon"></i>
+                                      Lifetime Access</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-black-tie panel-icon"></i>
+                                      Placement Assistance</div>
+                                    </div>
+                                     <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-black-tie panel-icon"></i>
+                                      Certification</div>
+                                    </div>
+                             </div><!--training-details-box-->
+                         </div>
+                     </div> 
+               </div>
+               
+           </div>
+       </div>
+   </section>
+ <footer>
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">Our Mission</h3>
+              <div class="para-bg wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
+                
+              <p class="footer-para">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text .<br><br>
+                When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                explore
+              </h3>
+              <ul class="footer-links footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="courses.html">Courses List</a></li>
+                <li><a href="corporatetraining.html">Corporate Training</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                visit
+              </h3>
+              
+              
+              <ul class="footer-links visit clearfix">
+               <!--<span class="address-icons fa fa-home"></span> -->
+                  <li>Address:
+                <p>123 XYZ Avenue,Sector 22,<br>
+                    Noida City,India</p>
+                </li>
+                
+                <!-- <span class="address-icons fa fa-phone"></span>-->
+                  <li>Phone:
+                  <p>
+                      <a href="tel:5551234567">Call (555)123-4567</a></p>
+                </li>
+                 <!--<span class="address-icons fa fa-envelope-o"></span>-->
+               <li>Email:
+                  <p><a href="mailto:computerinstitute@gmail.com">computerinstitute@gmail.com</a></p>
+                </li>
+                
+                 <li>Timing:
+                  <p>Mon - Sat: 10AM - 6PM</p>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+
+           <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                top courses
+              </h3>
+            <div class="row">
+               <div class="col-md-6">
+                <ul class="footer-links">
+				<li><a href="webdesigning.html" title="webdesigning.html">Web Designing</a></li>
+				<li><a href="aspnet.html" title="">Asp.net</a></li>
+				<li><a href="java.html" title="">Java</a></li>
+				<li><a href="php.html" title="">Php</a></li>
+									<li><a href="sql.html" title="">SQL</a></li>
+									<li><a href="html5.html" title="">HTML5 </a></li>
+									<li><a href="css3.html" title="">CSS3</a></li>
+									<li><a href="meanstack.html" title="">Mean Stack</a></li>
+									
+									</ul>
+                </div>
+									
+								
+                
+                
+               <div class="col-md-6">
+                <ul class="footer-links">
+				<li><a href="python.html" title="">Python</a></li>
+                <li><a href="english-speaking-classes.html" title="">Spoken English</a></li>
+				<li><a href="javascript.html" title="">Javascript</a></li>
+				<li><a href="c++.html" title="">C++</a></li>
+									<li><a href="bighadoop.html" title="">Hadoop</a></li>
+									<li><a href="blockchain.html" title="">Blockchain </a></li>
+									<li><a href="digitalmarketing.html" title="">Digital Marketing</a></li>
+									<li><a href="aws.html" title="">AWS</a></li>
+									
+									</ul>
+                </div>
+                </div>					
+								
+                
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bottom-txt">
+         <div class="container">
+          <div class="row">
+             <div class="col-md-6">
+              <div class="copyright">
+                  <span>&copy; 2018, All Rights Reserved</span>
+                
+              </div>
+              </div>
+              <div class="col-md-6">
+              <div class="social-icons clearfix">
+                  <ul>
+                      <li><a href="#"><i class="fa fa-facebook wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-instagram wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-google-plus-square wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      
+                  </ul>
+                  
+                  
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+    </footer>
+     <script src="js/jq.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+     <script src="js/function.js"></script>
+    
+
+</body>
+</html>

@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+                    <a href="#" id="g_t_t" style="display: none;">
+                    <div class="top-btn">
+                    <img class="gototop-img" src="img/gototop.png" alt="go to top">
+                        </div>
+                    </a>
+                
+                </div>
+				</div>  <!--/.col-md-->
+			</div>	<!--/.row-->	
+    <header>
+       <div class="top-strip">
+           <div class="container">
+               <div class="col-md-7 col-sm-7 col-xs-12 col-md-offset-5">
+                   <div class="right-bar-info clearfix">
+                       <ul class="list-inline" id="top-menu-bar">
+                           <li>
+                               <i class="fa fa-phone"></i>
+                               <a href="">
+                               <span>1234567895</span>
+                           </a></li>
+                           <li>
+                               <i class="fa fa-envelope"></i>
+
+                <a href="mailto:xyz@gmail.com">xyz@gmail.com</a>
+
+                           </li>
+                           <li>
+                           <i class="fa fa-calendar"></i>
+                              <a href="demo.html">
+                               <span>Demo Date &amp; Time</span>
+                           </a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="top-logo-div">
+           <div class="container">
+              <!-- nav-bar-mark-up-->
+               <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tech Institute</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+      <ul class="nav navbar-nav pull-right" id="menu-list">
+        <li><a href="index.html">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="aboutus.html">about us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">courses <span class="caret"></span></a>
+
+          <div class="listbox dropdown-menu" id="coursesList">
+          <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12" id="divider">
+          <h4 class="ourcourses">our courses</h4>
+          <ul>
+            <li> <a href="webdesigning.html">Web Designing</a></li>
+                <li><a href="asp.html">Asp.net</a></li>
+                <li><a href="java.html">Java</a></li>
+                <li><a href="php.html">Php</a></li>
+                <li><a href="sql.html">SQL</a></li>
+                <li><a href="html5.html">HTML5</a></li>
+                <li><a href="css3.html">CSS3</a></li>
+                 <li><a href="meanstack.html">Mean Stack</a></li>
+                <li><a href="c++.html">C++</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="aws.html">AWS</a></li>
+                <li><a href="blockchain.html">Blockchain</a></li>
+                <li><a href="english-speaking-classes.html">Spoken English</a></li>
+          </ul>
+           <a href="courses.html" class="btn btn-success btn_view">View all courses</a>
+            </div>
+             <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="row coursesdetail">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="corsLink">Web Designing</h4>
+                        <div class="course-img web">
+
+                        </div>
+                        <p class="courses-link">
+                               Web Designing training includes HTML4, CSS2, Photoshop CC, JavaScript, JQuery, HTML5, CSS3, Responsive Layouts, UI Testing, SASS and Bootstrap and three projects
+                            </p>
+                             <a href="webdesigning.html" class="btn btn-success btn_view">Web Designing Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">ASP.net</h4>
+                        <div class="course-img asp"></div>
+                        <p class="courses-link">
+                              Asp.net training includes Asp.net Core and Advance including WCF, Linq, Jquery, MVC, Entity Framework, and Bootstrap.
+                            </p>
+                            <br>
+                            <a href="aspnet.html" class="btn btn-success btn_view">ASP.net Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">JAVA</h4>
+                        <div class="course-img java"></div>
+                        <p class="courses-link">
+                               Core and Advance Java with j2ee, jsp servlet, JDBC, Struts, Spring, Hiberate and finally a project.
+                            </p>
+                            <br><br>
+                            <a href="java.html" class="btn btn-success btn_view">JAVA Traning</a>
+                    </div>
+                 </div>
+                  <hr>
+                   <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">PHP</h4>
+                        <div class="course-img php"></div>
+                        <p class="courses-link">
+                               Php Training includes core php, mySql, mysqli, HTML, css, JavaScript, Jquery, Ajax, Web Services, Joomla, Wordpress and three projects.
+                            </p>
+                            <br>
+                            <a href="php.html" class="btn btn-success btn_view">PHP Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">SQL</h4>
+                        <div class="course-img sql"></div>
+                        <p class="courses-link">
+                               SQL or Structured Query Language is a standared language for database. SQL communicates with database and can create, update, remove, and retrive data from database.
+                            </p>
+                            <a href="sql.html" class="btn btn-success btn_view">SQL Traning</a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                       <h4 class="corsLink">C++</h4>
+                        <div class="course-img c-lang"></div>
+                        <p class="courses-link">
+                               C++ Language training covers Classes and Object, Constructor &amp; Destructor, File Handling, Inheritance, Virtual, Overloading and Exception Handling.
+                            </p>
+                            <br>
+                            <a href="c++.html" class="btn btn-success btn_view">C++ Traning</a>
+                    </div>
+                </div>
+             </div>
+              </div> <!--row ends-->
+              </div>
+        </li>
+        <li><a href="corporatetraining.html">corporate training</a></li>
+        <li><a href="contactus.html">contact us</a></li>
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+           </div>
+       </div>
+   </header>
+  <section class="course-details">
+      <div class="container">
+          <div class="row">
+              <div class="course-details-heading">
+                  <h2>course details</h2>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="container menu-sec">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="menu clearfix">
+                  <ul>
+                      <li><a href="index.html"> Home</a>
+                      <span class="symbol">></span>
+                      </li>
+                      <li><a href="courses.html"> Courses</a>
+                      <span class="symbol">></span>
+                      </li>
+                      <li><a href="">Web Development Training</a>
+                      
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+   <div class="container">
+       <div class="row">
+           <div class="course-pic">
+                <img class="img-reponsive" src="img/webdevelopmenttraining.jpg" alt="">
+           </div>
+       </div>
+   </div>
+      <section class="course-description">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8 col-sm-8 col-xs-12">
+                   
+                   
+                   <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Courses Overview</a></li>
+    <li><a href="#tabs-2">Course Description</a></li>
+    <li><a href="#tabs-3">Free Demo &amp; Trainer Profile</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>
+        Web Designing training provides a comprehensive study on the tools and technologies required for the designing of impressive website. Participants will learn the effective use of CSS, Photoshop, HTML, HTML5, Java Script, and jQuery.</p>
+<p>
+An experienced trainer guides in understanding the client requirement and further in concept creation. The coding, layout, color scheme, font style/size/color, functionality and other details are encompassed in this training. Aspirants are taught how to keep a balance between text, graphics and multimedia on the website by keeping it comply to the standardization.
+    </p>
+    <div class="courses-overview">
+        <h3>Target audience</h3>
+    </div>
+    <ul class="course-list">
+        <li>Website Developer</li>
+        <li>Web Designer</li>
+        <li>Students</li>
+           
+    </ul>
+        <div class="courses-overview">
+        <h3>Prerequisites</h3>
+        </div>
+        <p>While there is no formal prerequisite for this training, however candidates with a strong interest in website designing are the ideal participants for this course. Understanding of HTML and CSS will be an added advantage.</p>
+  </div>
+  <div id="tabs-2">
+      <div class="courses-overview">
+        <h3>1.HTML &amp; XHTML (Extensible Hyper Text Markup Language)</h3>
+    </div>
+    <ul class="course-list">
+<li>Difference between HTML and XHTML.</li>
+<li>Why XHTML? not HTML.</li>
+<li>Understanding DOCTYPE.</li>
+<li>Understanding basic XHTML tags</li>
+<li>General form of a tag.</li>
+<li>HTML attributes.</li>
+<li>Basic text styling.</li>
+<li>HTML Heading.</li>
+<li>HTML Paragraph.</li>
+<li>HTML fonts.</li>
+<li>HTML colour codes.</li>
+<li>Hexadecimal colour coding.</li>
+<li>Working with table.</li>
+<li>Adding image to webpage.</li>
+<li>Working with Anchor, Image and Iframe tag.</li>
+<li>Working with HTML forms.</li>
+<li>Basic layout design using tables.</li>
+<li>Learning about the various deprecated tags in XHTML.</li>
+</ul>
+  
+   <div class="courses-overview">
+        <h3>2.CSS2 (Cascading Style sheet)</h3>
+    </div>
+    <ul class="course-list">
+<li>Use of CSS.</li>
+<li>Three types of CSS.</li>
+<li>Basic CSS properties.</li>
+<li>Basic text styling using CSS.</li>
+<li>CSS Background Properties.</li>
+<li>CSS box model.</li>
+<li>Tag selector, Id selector, Class selector, Attribute selectors.</li>
+<li>Grouping and Nesting of selectors.</li>
+<li>Pseudo classes and Pseudo elements.</li>
+<li>Working with DIV tags.</li>
+<li>Understanding DIV alignment, float and clear properties.</li>
+<li>Understanding CSS positions.</li>
+<li>Layout and template design (Building Table less websites).</li>
+<li>Creating Simple drop down menus.</li>
+<li>Fixing the compatibility issues is Various Browsers.</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>3.JavaScript</h3>
+    </div>
+    <ul class="course-list">
+<li>Use of JavaScript.</li>
+<li>JavaScript Popup boxes.</li>
+<li>JavaScript Events.</li>
+<li>Events handling.</li>
+<li>Manipulating DOM with JavaScript.</li>
+<li>JavaScript Operators.</li>
+<li>Control Structure.</li>
+<li>Writing functions.</li>
+<li>Tag and ID selector.</li>
+<li>JavaScript Objects.</li>
+<li>Making Lightbox with JavaScript.</li>
+<li>Making an image viewer with JavaScript</li>
+<li>Working with arrays.</li>
+<li>JavaScript Timers.</li>
+<li>Making JavaScript Image Slide Show</li>
+<li>JavaScript Date and Time Functions.</li>
+<li>JavaScript form validations using Regular Expression.</li>
+<li>Application of JavaScript.</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>4.JQuery</h3>
+    </div>
+    <ul class="course-list">
+
+<li>JQuery syntax.</li>
+<li>JQuery selectors.</li>
+<li>Creating, inserting, and manipulating web page content.</li>
+<li>JQuery predefined functions.</li>
+<li>Understanding JQuery plugins.</li>
+<li>Using event ready handlers that work across browsers.</li>
+<li>Working with JQuery effects, such as showing, hiding, sliding and fading page elements.</li>
+<li>JQuery callback functions.</li>
+<li>Creating custom animations with specialized properties and options.</li>
+<li>JQuery events.</li>
+<li>Understanding Elements Hierarchy.</li>
+<li>Using the JQuery UI plug-in to give pages a polished look.</li>
+<li>Developing JQuery applications and Plugins (like Facebook and Twitter).</li>
+<li>Making JQuery sliding menus.</li>
+<li>Making JQuery lightbox.</li>
+<li>Making JQuery image slider.</li>
+<li>Making JQuery image slideshow.</li>
+<li>Making jQuery Image Carousel.</li>
+<li>Making JQuery Image Zoom viewer.</li>
+<li>Making JQuery Collapsable Menu.</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>5.CSS3</h3>
+    </div>
+    <ul class="course-list">
+<li>Understanding CSS3.</li>
+<li>Using CSS3 advance Tag and Attributes selectors.</li>
+<li>Clearfix with CSS3.</li>
+<li>CSS3 Rounded Coners.</li>
+<li>CSS3 Box shadow properties.</li>
+<li>CSS3 Text Shadow properties.</li>
+<li>CSS3 Background Gradients.</li>
+<li>Making beautiful buttons using CSS3.</li>
+<li>CSS3 Transformations Properties.</li>
+<li>CSS3 Rotate , Translate, Skew, Scale properties.</li>
+<li>CSS3 transitions.</li>
+<li>CSS3 transitions delays.</li>
+<li>CSS3 transition functions.</li>
+<li>CSS3 keyframes.</li>
+<li>Creating animations Using Keyframes</li>
+<li>Animating webpages using CSS3.</li>
+<li>Mixing CSS3 and JQuery animations to create advance plugins.</li>
+<li>CSS3 Image slideshow.</li>
+<li>CSS3 Media Queries.</li>
+<li>Understanding Responsive Layouts.</li>
+<li>Making Basic Responsive Layout in CSS3 Media Query.</li>
+<li>Making Advance Website Template in CSS3 Media Query.</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>6.HTML5</h3>
+    </div>
+    <ul class="course-list">
+
+<li>What is HTML5?</li>
+<li>How is HTML5 different from XHTML.</li>
+<li>Drawbacks of XHTML.</li>
+<li>HTML5 future uses.</li>
+<li>Understanding HTML5 doctype.</li>
+<li>HTML5 Basic tags.</li>
+<li>HTML5 Advance Tags.</li>
+<li>Replacing XHTML Divs with HTML5 advance tags.</li>
+<li>Making a website template using HTML5.</li>
+<li>Fixing HTML5 compatibility issues in different browsers.</li>
+<li>HTML5 SHIV.</li>
+<li>Making HTML5 compatible in IE-8 and lesser using HTML5 SHIV.</li>
+<li>HTML5 custom data attributes.</li>
+<li>Holding custom data in HTML5 data attributes.</li>
+<li>Working with HTML5 data attributes and jQuery.</li>
+<li>Understanding HTML5 Canvas.</li>
+<li>Working with HTML5 Canvas using JavaScript and jQuery.</li>
+<li>Drawing runtime graphics and Animations using HTML5 Canvas.</li>
+<li>Playing with HTML5 canvas animations and characters using JavaScript and jQuery.</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>7.Twitter Bootstrap 3 Framework</h3>
+    </div>
+    <ul class="course-list">
+<li>Downloading and Installing Bootstrap 3 framework.</li>
+<li>Understanding various Components of Bootstrap Framework.</li>
+<li>Working with Bootstrap Components :
+<ul>
+<li>Navbar</li>
+<li>Menu</li>
+<li>Buttons</li>
+<li>Jumbotron</li>
+<li>Input groups</li>
+<li>Buttons</li>
+<li>Page Header</li>
+<li>Page Footer</li>
+<li>Forms</li>
+<li>Panels</li>
+</ul>
+</li>
+<li>Making jQuery Slider in Bootstrap 3.</li>
+<li>Making Responsive GRID layout using Bootstrap GRID.</li>
+<li>Making a final Website Layout.</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>8.Adobe Photoshop</h3>
+    </div>
+    <ul class="course-list">
+<li>Introduction to Adobe Photoshop</li>
+<li>Types of tools.</li>
+<li>Using Photoshop tools.</li>
+<li>Understanding Layers in Photoshop.</li>
+<li>Image gradient with Photoshop.</li>
+<li>Creating Custom effects.</li>
+<li>Merging two images in Photoshop.</li>
+<li>Removing and Changing backgrounds of Images.</li>
+<li>Making transparent backgrounds.</li>
+<li>Changing colour of images.</li>
+<li>Compressing images for use in websites.</li>
+<li>Image opacity.</li>
+<li>Creating animated banners (gif images).</li>
+<li>Developing Banners and Headers for websites.</li>
+</ul>
+			
+			<div class="courses-overview">
+        <h3>9.PSD to HTML Conversion</h3>
+    </div>
+    <ul class="course-list">
+<li>Understanding a PSD file.</li>
+<li>Using Slice Tool to get various website images.</li>
+<li>Converting a full PSD to HTML Website.</li>
+</ul>
+
+		<div class="courses-overview">
+        <h3>10.Angular Js</h3>
+    </div>
+    <ul class="course-list">
+<li> What is <strong>Angular JS</strong> </li><li> Advantage of Angular JS</li><li> Setup Angular JS Environment </li><li> Angular 1 Vs 2 </li><li> Integration </li><li> What is MVC Architecture</li><li> Angular JS Directives</li><li> Angular JS Controllers</li><li> Angular Form Validation</li><li>Angular JS Filters</li><li>Angular JS Module</li><li>$scope</li><li>$http</li><li>Angular JS Route</li></ul>
+ 
+ 		<div class="courses-overview">
+        <h3>11.Website Hosting</h3>
+    </div>
+    <ul class="course-list">
+<li>Web hosting basics.</li>
+<li>Hosting packages.</li>
+<li>File Manager.</li>
+<li>Creating Email accounts.</li>
+<li>Using FTP client.</li>
+<li>Working with FileZilla.</li>
+<li>Making your website LIVE.</li>
+</ul>
+ 
+ <div class="courses-overview">
+        <h3>12.Understanding Compatibility issues</h3>
+    </div>
+    <ul class="course-list">
+<li>Issues with different browser versions.</li>
+<li>Issues with CSS.</li>
+<li>Testing a website in different browsers.</li>
+</ul>
+ 
+ <div class="courses-overview">
+        <h3>13.SEO (Search Engine Optimization)</h3>
+    </div>
+    <ul class="course-list">
+<li>Understanding SEO and its scope.</li>
+<li>Difference between On page and Off page SEO.</li>
+<li>Understanding Google Search Engine.</li>
+<li>Meta Description and Keywords.</li>
+<li>Enhancing SEO of your website.</li>
+</ul>
+ 
+ 
+ 
+  <div class="courses-overview">
+        <h3>14.Dynamic Webpage Development</h3>
+    </div>
+ 
+ 
+ <div class="courses-overview">
+        <h3>15.Introduction to PHP</h3>
+    </div>
+    <ul class="course-list">
+<li>Control flow in PHP</li>
+<li>Arrays in PHP</li>
+<li>Functions in PHP</li>
+<li>Form Handling in PHP</li>
+<li>Reusing Code in PHP</li>
+<li>OOPS programming in PHP</li>
+<li>Exception Handling In PHP</li>
+<li>Cookies in PHP</li>
+<li>Session in PHP</li>
+<li>File Handling in PHP</li>
+</ul>
+  
+  <div class="courses-overview">
+        <h3>16.Mysql(Database Programming in PHP using MySQL)</h3>
+    </div>
+
+<div class="courses-overview">
+        <h3>17.Accessing MySQL using PHP</h3>
+    </div>
+    
+    <div class="courses-overview">
+        <h3>18.PHP Advance</h3>
+    </div>
+    
+   <div class="courses-overview">
+        <h3>19.Ajax</h3>
+    </div>  
+     <div class="courses-overview">
+        <h3>20.Wordpress</h3>
+    </div> 
+  </div>
+  <div id="tabs-3">
+    <div class="demo clearfix">
+        
+        <h3>about instructor</h3>
+        <div class="mentor-img clearfix">
+            <img class="img-responsive" src="img/mentor1.jpg" alt="">
+        <p  class="instructor"><strong><em>Emily Jhonson</em></strong><br><span>Web Designer and UI Developer.</span></p>
+        
+            <p class="mentor-info"><strong>Trainer having 6+ years Industrial Experience. </strong><br>
+						</p>
+        
+        </div>
+        
+        
+      <div class="course-reviews">
+           <h4>Reviews</h4>
+
+             <div class="de-rating-bg">
+				<h5>Detailed Rating</h5>
+				<div class="de-rating">
+				<div class="rat-item">
+				<span class="left">Star 5</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">5</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 4</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">4</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 3</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">3</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 2</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">2</span>
+				</div>
+				<div class="rat-item">
+				<span class="left">Star 1</span>
+				<span class="middle"><span class="fill"></span></span>
+				<span class="right">1</span>
+				</div>
+				</div>
+				</div>
+							
+						</div>
+						<h3>demo information</h3>
+						<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+        <strong>Date :- 5 Nov 2018</strong><br>
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <strong>Timing :- 11:30 PM</strong>
+    </div> <!--demo div ends-->
+  </div>
+</div>
+                   
+                   
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                   <div class="row">
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-inr fa-2x" aria-hidden="true"></i>
+                               <p>Fee:</p>
+                               <p>23000</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                               <p>Total Seats:</p>
+                               <p>15</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                              <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
+                               <p>Start:</p>
+                               <p>11 Dec'18</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i>
+                               <p>End:</p>
+                               <p>11 May'19</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                               <p>Location:</p>
+                               <p>Noida</p>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-6 col-xs-6">
+                           <div class="course_info_card">
+                               <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
+                               <p>Duration:</p>
+                               <p>6 Month</p>
+                           </div>
+                       </div>
+                    
+                   </div><!--row ends-->
+                      <div class="col-md-12">
+                         <div class="training-features-box">
+                             <h3>Web Development Training Features</h3>
+                             <div class="training-details-box">
+                                 <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-users panel-icon"></i>
+                                      8 to 12 Students in a batch</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-newspaper-o panel-icon"></i>
+                                       Assessments</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-address-card panel-icon"></i>
+                                      Certified &amp; Industry Experts Trainers</div>
+                                    </div>
+                                     <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-clock-o panel-icon"></i>
+                                      Lifetime Access</div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-black-tie panel-icon"></i>
+                                      Placement Assistance</div>
+                                    </div>
+                                     <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                      <i class="fa fa-black-tie panel-icon"></i>
+                                      Certification</div>
+                                    </div>
+                             </div><!--training-details-box-->
+                         </div>
+                     </div>
+               </div>
+               
+           </div>
+       </div>
+   </section>
+ <footer>
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">Our Mission</h3>
+              <div class="para-bg wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
+                
+              <p class="footer-para">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text .<br><br>
+                When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                explore
+              </h3>
+              <ul class="footer-links footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="courses.html">Courses List</a></li>
+                <li><a href="corporatetraining.html">Corporate Training</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                visit
+              </h3>
+              
+              
+              <ul class="footer-links visit clearfix">
+               <!--<span class="address-icons fa fa-home"></span> -->
+                  <li>Address:
+                <p>123 XYZ Avenue,Sector 22,<br>
+                    Noida City,India</p>
+                </li>
+                
+                <!-- <span class="address-icons fa fa-phone"></span>-->
+                  <li>Phone:
+                  <p>
+                      <a href="tel:5551234567">Call (555)123-4567</a></p>
+                </li>
+                 <!--<span class="address-icons fa fa-envelope-o"></span>-->
+               <li>Email:
+                  <p><a href="mailto:computerinstitute@gmail.com">computerinstitute@gmail.com</a></p>
+                </li>
+                
+                 <li>Timing:
+                  <p>Mon - Sat: 10AM - 6PM</p>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+
+           <div class="col-md-3">
+            <div class="footer-sec1">
+              <h3 class="footer-heading">
+                top courses
+              </h3>
+            <div class="row">
+               <div class="col-md-6">
+                <ul class="footer-links">
+				<li><a href="webdesigning.html" title="webdesigning.html">Web Designing</a></li>
+				<li><a href="aspnet.html" title="">Asp.net</a></li>
+				<li><a href="java.html" title="">Java</a></li>
+				<li><a href="php.html" title="">Php</a></li>
+									<li><a href="sql.html" title="">SQL</a></li>
+									<li><a href="html5.html" title="">HTML5 </a></li>
+									<li><a href="css3.html" title="">CSS3</a></li>
+									<li><a href="meanstack.html" title="">Mean Stack</a></li>
+									
+									</ul>
+                </div>
+									
+								
+                
+                
+               <div class="col-md-6">
+                <ul class="footer-links">
+				<li><a href="python.html" title="">Python</a></li>
+                <li><a href="english-speaking-classes.html" title="">Spoken English</a></li>
+				<li><a href="javascript.html" title="">Javascript</a></li>
+				<li><a href="c++.html" title="">C++</a></li>
+									<li><a href="bighadoop.html" title="">Hadoop</a></li>
+									<li><a href="blockchain.html" title="">Blockchain </a></li>
+									<li><a href="digitalmarketing.html" title="">Digital Marketing</a></li>
+									<li><a href="aws.html" title="">AWS</a></li>
+									
+									</ul>
+                </div>
+                </div>					
+								
+                
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bottom-txt">
+         <div class="container">
+          <div class="row">
+             <div class="col-md-6">
+              <div class="copyright">
+                  <span>&copy; 2018, All Rights Reserved</span>
+                
+              </div>
+              </div>
+              <div class="col-md-6">
+              <div class="social-icons clearfix">
+                  <ul>
+                      <li><a href="#"><i class="fa fa-facebook wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-instagram wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      <li><a href="#"><i class="fa fa-google-plus-square wow flip" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+                      
+                  </ul>
+                  
+                  
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+    </footer>
+     <script src="js/jq.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+     <script src="js/function.js"></script>
+    
+
+</body>
+</html>
